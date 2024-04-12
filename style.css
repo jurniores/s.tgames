@@ -1,0 +1,159 @@
+/* Estilos comuns para todos os dispositivos */
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(21, 19, 22) 60%, #000000 100%);
+}
+
+.ul-links {
+    color: white;
+    list-style: none;
+    margin-left: auto;
+}
+
+.ul-links li {
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: gray;
+}
+
+a {
+    font-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.divImage {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgb(36, 35, 37);
+    padding-bottom: 1vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-1 {
+    width: 15%;
+    height: 1%;
+    margin-left: 1%;
+    border-radius: 4%;
+}
+
+.img-2 {
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+
+
+
+.btnDownload {
+    border: none;
+    font-size: 80%;
+    font-family: cursive;
+    background-color: greenyellow;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+    padding: 2%;
+    width: 20%;
+    margin: 1%;
+}
+
+.btnDownload:hover {
+    background-color: rgb(128, 192, 33);
+    cursor: pointer;
+}
+
+.gameShotFire {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+small{
+    font-size: 0.3cm;
+}
+
+
+/*Estilos para cell*/
+@media only screen and (max-width: 600px) {
+
+    .ul-links li {
+        font-size: 1.5vh;
+    }
+
+    .img-3 {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+    .container-divflex {
+        display: block;
+    }
+
+    .desc {
+        width: 100%;
+        margin: 0 auto;
+        color: white;
+        width: 80%;
+        padding: 1%;
+        font-size: 3vw;
+        margin-bottom: 10%;
+    }
+
+    .container-div1 {
+        display: flex;
+        width: 80%;
+        height: 60%;
+        color: white;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        margin: 0 auto;
+    }
+
+}
+
+/*Estilos para PC*/
+@media only screen and (min-width: 601px) {
+    .container-divflex {
+        display: flex;
+    }
+
+    .img-3 {
+        height: 80%;
+        width: 80%;
+        display: block;
+    }
+
+    .desc {
+        color: white;
+        width: 30%;
+        padding: 1%;
+        font-size: 1.5vw;
+    }
+
+    .container-div1 {
+        display: flex;
+        width: 70%;
+        height: 60%;
+        color: white;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+    }
+}
