@@ -52,21 +52,6 @@ a {
 }
 
 
-
-
-
-.btnDownload {
-    border: none;
-    font-size: 80%;
-    font-family: cursive;
-    background-color: greenyellow;
-    color: white;
-    text-shadow: 2px 2px 2px #000000;
-    padding: 2%;
-    width: 20%;
-    margin: 1%;
-}
-
 .btnDownload:hover {
     background-color: rgb(128, 192, 33);
     cursor: pointer;
@@ -107,7 +92,7 @@ small{
         color: white;
         width: 80%;
         padding: 1%;
-        font-size: 3vw;
+        font-size: 5vw;
         margin-bottom: 10%;
     }
 
@@ -120,8 +105,18 @@ small{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 3vw;
+        font-size: 6vw;
         margin: 0 auto;
+    }
+    .btnDownload {
+        border: none;
+        font-size: 80%;
+        font-family: cursive;
+        background-color: rgb(132, 204, 24);
+        color: white;
+        padding: 2%;
+        width: 30%;
+        margin: 1%;
     }
 
 }
@@ -155,5 +150,15 @@ small{
         justify-content: center;
         align-items: center;
         font-size: 1.5vw;
+    }
+    .btnDownload {
+        border: none;
+        font-size: 80%;
+        font-family: cursive;
+        background-color: rgb(132, 204, 24);
+        color: white;
+        padding: 2%;
+        width: 20%;
+        margin: 1%;
     }
 }
